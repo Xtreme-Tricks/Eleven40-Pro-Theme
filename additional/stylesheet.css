@@ -372,7 +372,7 @@ img.centered {
 .entry-content p,
 .entry-content ul {
     margin-bottom: 26px;
-    text-align: justify
+    text-align: left;
 }
 
 .footer-widgets {
@@ -492,4 +492,10 @@ textarea {
 .footer-widgets .entry-title a,
 .footer-widgets .widgettitle {
     font-family: Questrial !important;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+.alignleft {
+    float: unset;
+    }
 }
